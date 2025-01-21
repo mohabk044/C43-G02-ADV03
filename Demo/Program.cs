@@ -15,6 +15,24 @@
                 Console.WriteLine(number);
             }
             #endregion
+
+            #region Stack
+            //Stack<int> Numbers = new Stack<int>();
+            //Numbers.Push(1);
+            //Numbers.Push(2);
+            //Numbers.Push(3);
+            //foreach (int number in Numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //Numbers.Pop();
+            //Console.WriteLine( Numbers.TryPop(out int result));
+            //Console.WriteLine("After Pop");
+            //foreach (int number in Numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            #endregion
         }
     }
 }
