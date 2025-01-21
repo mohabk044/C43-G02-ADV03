@@ -49,6 +49,19 @@
             //    Console.WriteLine(number);
             //}
             #endregion
+
+            #region HashTable
+            //Hashtable Note = new Hashtable();
+            //Note.Add("Name", "John");
+            //Note.Add("Age", 25);
+            //Note.Add("City", "New York");
+            //if (!Note.ContainsKey("Name"))
+            //    Note.Add("Name" , "mohab");
+            //foreach (DictionaryEntry item in Note)
+            //{
+            //    Console.WriteLine(item.Key + " : " + item.Value);
+            //}
+            #endregion
         }
     }
 }
