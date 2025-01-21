@@ -5,15 +5,15 @@
         static void Main(string[] args)
         {
             #region Generic Collection - LinkedList
-            LinkedList<int> Numbers = new LinkedList<int>();
-            Numbers.AddFirst(1);
-            Numbers.AddAfter(Numbers.First, 2);
-            Numbers.AddAfter(Numbers.First.Next, 3);
-            Numbers.AddLast(4);
-            foreach (int number in Numbers)
-            {
-                Console.WriteLine(number);
-            }
+            //LinkedList<int> Numbers = new LinkedList<int>();
+            //Numbers.AddFirst(1);
+            //Numbers.AddAfter(Numbers.First, 2);
+            //Numbers.AddAfter(Numbers.First.Next, 3);
+            //Numbers.AddLast(4);
+            //foreach (int number in Numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
             #endregion
 
             #region Stack
@@ -110,6 +110,18 @@
             //{
             //    Console.WriteLine(number);
             //}
+            #endregion
+
+            #region SortedSet (BST)
+            SortedSet<int> Numbers = new SortedSet<int>();
+            Numbers.Add(12);
+            Numbers.Add(2);
+            Numbers.Add(23);
+            Numbers.Add(1);
+            foreach (int number in Numbers)
+            {
+                Console.WriteLine(number);
+            }
             #endregion
         }
     }
