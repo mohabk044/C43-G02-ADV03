@@ -85,6 +85,20 @@
             //    Console.WriteLine($"{item.Key} :: {item.Value}");
             //}
             #endregion
+
+
+
+            #region SortedList (BST)
+            //SortedList<string, int> Note = new SortedList<string, int>();
+            //Note.Add("mohab", 456);
+            //Note.Add("omar", 789);
+            //Note.Add("Ahmed", 123);
+            //foreach (var item in Note)
+            //{
+            //    Console.WriteLine($"{item.Key} :: {item.Value}");
+            //}
+            #endregion
+
         }
     }
 }
