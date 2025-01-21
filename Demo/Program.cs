@@ -99,6 +99,18 @@
             //}
             #endregion
 
+
+            #region HashSet (HashTable)
+            //HashSet<int> Numbers = new HashSet<int>();
+            //Numbers.Add(1);
+            //Numbers.Add(2);
+            //Numbers.Add(3);
+            //Numbers.Add(1);
+            //foreach (int number in Numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            #endregion
         }
     }
 }
