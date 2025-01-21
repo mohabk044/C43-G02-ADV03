@@ -62,6 +62,29 @@
             //    Console.WriteLine(item.Key + " : " + item.Value);
             //}
             #endregion
+
+            #region Dictionary (HashTable)
+            //Dictionary<string, int> Note = new Dictionary<string, int>();
+            //Note.Add("Ahmed", 123);
+            //Note.Add("mohab", 456);
+            //Note.Add("omar", 789);  
+            //Note.Add("Ahmed", 038);
+            //foreach (KeyValuePair<string, int> item in Note)
+            //{
+            //    Console.WriteLine($"{item.Key} :: {item.Value}");
+            //}
+            #endregion
+
+            #region SortedDictionary (BST)
+            //SortedDictionary<string, int> Note = new SortedDictionary<string, int>();
+            //Note.Add("mohab", 456);
+            //Note.Add("omar", 789);
+            //Note.Add("Ahmed", 123);
+            //foreach (var item in Note)
+            //{
+            //    Console.WriteLine($"{item.Key} :: {item.Value}");
+            //}
+            #endregion
         }
     }
 }
